@@ -24,7 +24,7 @@ jobs:
     displayName: 'npm install and serverless install'
   - task: DockerInstaller@0
     inputs:
-      dockerVersion: '20.10.2-ce'
+      dockerVersion: '18.06.3-ce'
     displayName: 'Install Docker'
   - task: AWSShellScript@1
     inputs:
